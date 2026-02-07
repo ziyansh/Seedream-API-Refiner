@@ -1,5 +1,7 @@
 # Seedream API Refiner Extension
 
+中文readme详见[README_cn.md](README_cn.md)
+
 Seedream API Refiner is a Stable Diffusion webUI extension that uses Seedream API to intelligently optimize generated images, enhancing image quality and detail representation.
 
 ## Key Features
