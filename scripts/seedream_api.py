@@ -126,7 +126,7 @@ class Script(scripts.Script):
                                 unit_image = gr.Image(label="Image", elem_id=f"seedream_unit_{i}_image", interactive=True, height=242)
                                 
                                 # 预处理结果预览区域
-                                unit_preview = gr.Image(label="Preprocessor Preview", elem_id=f"seedream_unit_{i}_preview", interactive=False, height=242, visible=False)
+                                unit_preview = gr.Image(label="Preprocessor Preview", elem_id=f"seedream_unit_{i}_preview", interactive=False, height=242, visible=True)
                                 
                                 # 控制选项
                                 with gr.Row():
