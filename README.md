@@ -126,23 +126,6 @@ Seedream API Refiner is a Stable Diffusion webUI extension that uses Seedream AP
 - **Preprocessing Failure**: Check if the image format is correct and ensure the image is not empty
 - **Invalid Reference Images**: Ensure uploaded reference images are clear and relevant to the optimization goal
 
-## System Requirements
-
-- Stable Diffusion webUI
-- Python 3.10+
-- Internet connection (for calling Seedream API)
-- Sufficient disk space (for saving optimized images)
-
-## Example Workflows
-
-1. **Basic Optimization**: Enable extension → Enter prompt → Generate image → Automatic optimization
-
-2. **Style Reference**: Enable extension → Upload style reference image → Generate image → Style-based optimization
-
-3. **Structure Control**: Enable extension → Configure Canny control unit → Upload edge reference → Generate image → Structure-preserving optimization
-
-4. **Pose Maintenance**: Enable extension → Configure OpenPose control unit → Upload pose reference → Generate image → Pose-preserving optimization
-
 ## License
 
 MIT License
